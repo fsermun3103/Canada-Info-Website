@@ -1,0 +1,13 @@
+[
+  { "name": "Kelowna Visitor Centre", "lat": 49.8881, "lng": -119.4969 },
+  { "name": "Canada Place Welcome Centre", "lat": 49.2859, "lng": -123.1110 },
+  { "name": "Tourism Nanaimo Visitor Centre", "lat": 49.1658, "lng": -123.9404 },
+  { "name": "Destination Greater Victoria Visitor Centre", "lat": 48.4208, "lng": -123.3643 },
+  { "name": "Tourism London Welcome Centre", "lat": 42.9836, "lng": -81.2497 },
+  { "name": "Niagara-on-the-Lake Tourism Centre", "lat": 43.2540, "lng": -79.0875 },
+  { "name": "Tourism Burlington Visitor Info Centre", "lat": 43.3247, "lng": -79.7990 },
+  { "name": "Cornwall Tourism Visitor Centre", "lat": 45.0268, "lng": -74.7308 },
+  { "name": "Ottawa Visitor Centre", "lat": 45.4215, "lng": -75.6919 },
+  { "name": "Charlottetown Information Centre", "lat": 46.2382, "lng": -63.1311 },
+  { "name": "Centre Infotouriste de Québec", "lat": 46.8139, "lng": -71.2082 }
+]

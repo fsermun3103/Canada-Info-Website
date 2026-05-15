@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    </head>
+    <body>
+        <nav id="navbar">
+            <div class="brand">
+                <div class="logo">
+                    <img src="assets/img/leaf.svg" alt="">
+                </div>
+                <h1>CANADA</h1>
+            </div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home<span class="line"></span></a></span></li>
+                    <li><a href="destinations.html">Destinations<span class="line"></span></a></li>
+                    <li><a href="routes.html">Routes<span class="line"></span></a></li>
+                    <li><a href="#" class="active" disabled>Contact<span class="line"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="contact-hero">
+             <div class="hero-content">
+                <h1 class="title">GET IN TOUCH</h1>
+                <h3>YOUR JOURNEY STARTS HERE</h3>
+                <p>
+                    We're here to help you plan the perfect Canadian adventure. Reach out 
+                    for travel advice, visa support, or regional recommendations.
+                </p>
+             </div>
+        </section>
+        
+        <section class="contact-form">
+            <div class="title">
+                <h1>Send Us a Message</h1>
+                <div class="line"></div>
+            </div>
+
+            <form action="">
+                <div class="name-email">
+                    <div class="name">
+                        <label for="name">FULL NAME</label>
+                        <input type="text" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="email">
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email" placeholder="yourname@example.org">
+                    </div>
+                </div>
+                <div class="subject">
+                    <label for="subject">SUBJECT OF QUESTION</label>
+                    <select name="subject" id="subject">
+                        <option value="" disabled>Select a subject</option>
+                        <option value="">Travel Visas & Entry Requirements</option>
+                        <option value="">Study & Work in Canada</option>
+                        <option value="">Tourism & Travel Planning</option>
+                        <option value="">Relocation & Immigration Advice</option>
+                        <option value="">Business & Investment Opportunities</option>
+                    </select>
+                </div>
+
+                <div class="textarea">
+                    <label for="textarea">YOUR MESSAGE</label>
+                    <textarea name="textarea" id="textarea" placeholder="Describe your travel plans or questions..."></textarea>
+                </div>
+
+                <div class="privacy-button">
+                    <div class="privacy">
+                        <input type="checkbox" id="privacy">
+                        <label for="privacy">I aggree to the privacy policy</label>
+                    </div>
+                    <div class="button">
+                         <button class="btn btn-primary">
+                            <p>SEND MESSAGE</p>
+                        </button>
+                    </div>
+                </div>
+            </form> 
+        </section>
+
+        <section class="map-section">
+            <h1>Our Locations</h1>
+            <p class="subtitle">VISIT ONE OF OUR OFFICIAL TOURISM OFFICES ACROSS THE COUNTRY</p>
+
+            <div id="map"></div>
+        </section>
+
+        <section class="connections">
+            <h1>How to Get Here</h1>
+            <div class="cards-container">
+                <div class="card best-airports">
+                    <div class="icon blue"></div>
+                    <h5 class="title">BEST AIRPORTS</h5>
+                    <p class="introduction">Canada boasts state of the art international airports serving as direct gateways from every continent.</p>
+                    <div class="airports">
+                        <div class="airport">
+                            <p>Saskatoon John G. Diefenbaker</p>
+                            <p class="IATA">YYZ</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="airport">
+                            <p>Québec City Jean Lesage</p>
+                            <p class="IATA">YVR</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="airport">
+                            <p>St. John</p>
+                            <p class="IATA">YUL</p>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <div class="card global">
+                    <div class="icon orange"></div>
+                    <h5 class="title">GLOBAL CONNECTIONS</h5>
+                    <p class="introduction">Connected with airline partners offering direct routes worldwide.</p>
+                    <div class="flights">
+                        <div class="flight">
+                            <p>MADRID(MAD)</p>
+                            <div class="line"></div>
+                            <p>TORONTO(YYZ)</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="flight">
+                            <p>TOKIO(NRT)</p>
+                            <div class="line"></div>
+                            <p>VANCOUVER(YVR)</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="flight">
+                            <p>PARIS(CDG)</p>
+                            <div class="line"></div>
+                            <p>TORONTO(YYZ)</p>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="button">
+                        <button class="btn btn-primary">
+                            <a href="routes.html" class="btn btn-primary">
+                                <span class="icon-wrap">
+                                    <span class="icon icon-leaf">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-1953 -2031 3906 4061">
+                                        <path d="m-90 2030 45-863a95 95 0 0 0-111-98l-859 151 116-320a65 65 0 0 0-20-73l-941-762 212-99a65 65 0 0 0 34-79l-186-572 542 115a65 65 0 0 0 73-38l105-247 423 454a65 65 0 0 0 111-57l-204-1052 327 189a65 65 0 0 0 91-27l332-652 332 652a65 65 0 0 0 91 27l327-189-204 1052a65 65 0 0 0 111 57l423-454 105 247a65 65 0 0 0 73 38l542-115-186 572a65 65 0 0 0 34 79l212 99-941 762a65 65 0 0 0-20 73l116 320-859-151a95 95 0 0 0-111 98l45 863z"/>
+                                    </svg>
+                                    </span>
+
+                                    <span class="icon icon-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                    </span>
+                                </span>
+
+                                <span class="label">Plan Your Trip</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card visas">
+                    <div class="icon white"></div>
+                    <h5 class="title">ENTRY & VISAS</h5>
+                    <p class="introduction">
+                        Most travelers require either an Electronic Travel Authorization (eTA) 
+                        or a visitor visa to enter Canada, depending on their country requirements.
+                    </p>
+                    <div class="button">
+                        <a href="routes.html" class="btn btn-primary">
+                            <span class="icon-wrap">
+                                <span class="icon icon-leaf">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="-1953 -2031 3906 4061">
+                                    <path d="m-90 2030 45-863a95 95 0 0 0-111-98l-859 151 116-320a65 65 0 0 0-20-73l-941-762 212-99a65 65 0 0 0 34-79l-186-572 542 115a65 65 0 0 0 73-38l105-247 423 454a65 65 0 0 0 111-57l-204-1052 327 189a65 65 0 0 0 91-27l332-652 332 652a65 65 0 0 0 91 27l327-189-204 1052a65 65 0 0 0 111 57l423-454 105 247a65 65 0 0 0 73 38l542-115-186 572a65 65 0 0 0 34 79l212 99-941 762a65 65 0 0 0-20 73l116 320-859-151a95 95 0 0 0-111 98l45 863z"/>
+                                </svg>
+                                </span>
+
+                                <span class="icon icon-arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="m12 5 7 7-7 7"></path>
+                                </svg>
+                                </span>
+                            </span>
+
+                            <span class="label">Plan Your Trip</span>
+                        </a>
+                    </div>
+                    <div class="button">
+                        <button class="btn btn-secondary">
+                            <p>VISA GUIDELINES</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Go to top">
+            <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="currentColor">
+                <path d="m280-400 200-200 200 200H280Z"/>
+            </svg>
+        </button>
+
+        <footer>
+            <div class="footer-content">
+                <div class="left">
+                    <div class="col1">
+                        <div class="brand">
+                            <div class="logo">
+                                <img src="assets/img/leaf.svg" alt="">
+                            </div>
+                            <h1>CANADA</h1>
+                        </div>
+                        <p class="info">
+                            Official web for Canadian travel itineraries. We provide
+                            guidance on regional exploration and sustainable tourism.
+                        </p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="col2">
+                        <p class="title">OFFICIAL GUIDES</p>
+                        <ul>
+                            <ul>
+                                <li><a href="">Visas & Entry Requirements</a></li>
+                                <li><a href="">Travel Insurance Policy</a></li>
+                                <li><a href="">Seasonal Climate Reports</a></li>
+                                <li><a href="">Parks Canada Passes</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col3">
+                        <p class="title">REGIONAL HUBS</p>
+                        <ul>
+                            <li><a href="">Western Provinces</a></li>
+                            <li><a href="">Central Territories</a></li>
+                            <li><a href="">Eastern Maritimes</a></li>
+                            <li><a href="">Northern Arctic</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="subfooter">
+                <div class="copyright">
+                    <p>&copy; 2026 CANADIAN TOURISM AGENCY</p>
+                </div>
+                <div class="privacy-info">
+                    <p><a href="">PRIVACY</a></p>
+                    <p><a href="">ACCESIBILITY</a></p>
+                    <p><a href="">DATA TRANSPARENCY</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
