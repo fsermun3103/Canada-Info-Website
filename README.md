@@ -1,5 +1,5 @@
 # Canada-Info-Website
-Sitio web de información sobre Canada como práctica de HTML, CSS y Javascript con diseño responsive.
+Sitio web de información sobre Canada como práctica de HTML, CSS y Javascript con diseño responsive y dinámico.
 
 ## Páginas disponibles
 #### HOME
